@@ -10,7 +10,7 @@ const app = express(); // passing the app instance to middlewareConfig
 middlewareConfig(app);
 
 app.get('/', (req, res) => {
-    res.send('Hello world!');
+    res.send('REST API for Stratos Middleware');
 });
 apiRoutes(app);
 
