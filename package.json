@@ -1,11 +1,11 @@
 {
   "name": "stratos-middleware",
   "version": "0.0.1",
-  "description":"Middleware component of Stratos PaaS platform",
-  "homepage":"http://github.com",
+  "description": "Middleware component of Stratos PaaS platform",
+  "homepage": "http://github.com",
   "main": "index.js",
   "license": "AGPL-3.0",
-  "author":"Jeff Loyd <jeffloyd@gmail.com> (http://datasolutioneer.com)",
+  "author": "Jeff Loyd <jeffloyd@gmail.com> (http://datasolutioneer.com)",
   "scripts": {
     "clean": "rimraf dist",
     "dev:build": "yarn run clean && webpack -w",
@@ -26,7 +26,9 @@
     "passport": "^0.3.2",
     "passport-jwt": "^4.0.0",
     "passport-local": "^1.0.0",
-    "validator": "^7.0.0"
+    "swagger-tools": "^0.10.4",
+    "validator": "^7.0.0",
+    "yamljs": "^0.3.0"
   },
   "devDependencies": {
     "babel-core": "^6.24.1",

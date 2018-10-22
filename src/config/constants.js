@@ -1,9 +1,9 @@
 const devConfig = { 
-    MONGO_URL: 'mongodb://localhost/makeanodejsapi-dev', 
+    MONGO_URL: 'mongodb://localhost:27017/stratos-dev', 
     JWT_SECRET: 'thisisasecret',
 }; 
-const testConfig = { MONGO_URL: 'mongodb://localhost/makeanodejsapi-test', JWT_SECRET: 'thisisasecret'}; 
-const prodConfig = { MONGO_URL: 'mongodb://localhost/makeanodejsapi-prod', JWT_SECRET: 'thisisasecret'};
+const testConfig = { MONGO_URL: 'mongodb://172.17.0.4:27017/stratos-test', JWT_SECRET: 'thisisasecret'}; 
+const prodConfig = { MONGO_URL: 'mongodb://172.17.0.4:27017/stratos-prod', JWT_SECRET: 'thisisasecret'};
 const defaultConfig = {
     PORT: process.env.PORT || 3000,
 };
